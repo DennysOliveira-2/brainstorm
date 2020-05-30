@@ -6,37 +6,29 @@
         <script src="script.js"></script>
     </head>
     <header>
-
+        <h3>Population Density Live Heatmap</h3>
+        <h4>Avoiding crowded places and decreasing pandemic spread rates.</h2>
     </header>
     <body>
-        <nav role="navigation">
-            <div id="menuToggle">
-                <input type="checkbox"/>
-                <span></span>
-                <span></span>
-                <span></span>
-
-                <ul id="menu">
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Info</li></a>
-                    <a href="#"><li>Contact</li></a>
-                </ul>
-            </div>
-        </nav>
-
+        <div id="floating-panel">
+            <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+            <button onclick="changeGradient()">Change gradient</button>
+            <button onclick="changeRadius()">Change radius</button>
+            <button onclick="changeOpacity()">Change opacity</button>
+        </div>
         <div id="map-container">
             <div id="map"></div>
         </div>
-
         <script type="text/javascript" src="script.js"></script>
         <script>
-            
-        
+
+
+
+
 
         </script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiTz4Z0psSagtJ_4niIOKvQDM706L_bIM&libraries=visualization&callback=initMap">
-    </script>
+        </script>
     </body>
 </html>
