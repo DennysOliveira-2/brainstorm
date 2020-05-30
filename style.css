@@ -1,0 +1,33 @@
+#map{    
+    
+    height:100%;
+    width: 100%;
+}
+
+#map-container {
+    height: 100%;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#floating-panel {
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    z-index: 5;
+    background-color: white;
+    padding: 5px;
+    border: 1px dotted gray;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif'
+    line-height: 30px;
+    padding-left: 10px;
+}
+
