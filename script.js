@@ -390,7 +390,7 @@ async function initMap() {
     })
         
     var markerCluster = new MarkerClusterer(map, markers,
-        {imagePath: './node_modules/@google/markerclustererplus/images/m'});
+        {imagePath: './images/m'});
     
 
     var marker = new google.maps.Marker({
