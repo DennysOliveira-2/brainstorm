@@ -46,14 +46,26 @@ html, body {
     height: 100%;
     
     overflow: auto;
-    
 }
         
-
-
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(54, 54, 54);
+}
+
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(rgb(51, 38, 38), rgb(64, 63, 63));
+}
+
+::-webkit-scrollbar-track:hover {
+    background-image: linear-gradient(rgb(56, 43, 43), rgb(69, 68, 68));
 }
 
 .column2 {
@@ -71,29 +83,66 @@ html, body {
 }
 
 .column-header {
-    font-family: Arial, Helvetica, sans-serif;
-       
+           
 }
 
 .column-header h3 {
     padding-right: 5px;
     padding-left: 5px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .column-header h4 {
     padding-right: 5px;
     padding-left: 5px;
     font-weight: normal;
+    font-size: 17px;
+    
+    color: rgb(195, 195, 195);
+    
 }
 
 
 .card {
-    margin: 5px;
-    padding: 5px;
-    
+    margin: 7px;
+    padding: 7px;
+    /* background-color: rgba(50, 50, 50, .15); */
     background-image: linear-gradient(rgba(41, 28, 28, .4), rgba(54, 53, 53, .2),rgba(41, 28, 28, .3) );
-    
     text-align: justify;
 }
 
+.card h3 {
+    text-align: center;
+    padding-bottom:1px;
+    margin-bottom: 1px;
+    font-weight: normal;
+}
+
+.card p {
+
+}
+
+
+span.fade{
+    color: rgb(148, 148, 148);
+}
+
+.card .team {
+    margin: 7px;
+    padding: 7px;
+    /* background-color: rgba(50, 50, 50, .15); */
+    background-image: linear-gradient(rgba(41, 28, 28, .4), rgba(54, 53, 53, .2),rgba(41, 28, 28, .3) );
+    text-align: left;
+}
+
+.team p {
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+    
+}
+
+a {
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+}

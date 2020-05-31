@@ -2,7 +2,6 @@
 var map, heatmap;
 var user = { name: "user", location: {lat: 0, lng: 0}};
 
-
 // Suppose this is the application database data of users online, or something like that.
 // Probably the best scenario would be drawing only what is at user screen to avoid server overloading with multiple cross operations between users requesting data and sending their location.
 var dbl = {
@@ -49,9 +48,9 @@ function randomizeCoords(value) {
     var luck = Math.random();
 
     if (luck > 0.50) {
-        value += rand / 150;
+        value += rand / 75;
     } else {
-        value -= rand / 150;
+        value -= rand / 75;
     }
     return parseFloat(value.toFixed(7));
 }
@@ -62,7 +61,7 @@ function sleep(ms) {
 
 async function initMap() {
     getLocation();
-    objOverflow(dbl, 200);
+    objOverflow(dbl, 500);
 
     await sleep(4000);
 
@@ -397,7 +396,7 @@ async function initMap() {
     var marker = new google.maps.Marker({
         position: user.location,
         map: map,
-        title: 'That is you!',
+        title: 'This is you!',
         icon: icons.client
     });
 }
