@@ -21,8 +21,8 @@ html, body {
 
 #floating-panel {
     position: absolute;
-    top: 70%;
-    left: 8%;
+    top: 95%;
+    left: 25%;
     z-index: 5;
     background-color: white;
     padding: 5px;
