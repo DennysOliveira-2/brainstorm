@@ -61,17 +61,17 @@ function sleep(ms) {
 
 async function initMap() {
     getLocation();
-    objOverflow(dbl, 500);
+    objOverflow(dbl, 2500);
 
     await sleep(4000);
 
     var icons = {
         client: {
-            url: '/headicon.png',
+            url: './headicon.png',
             scaledSize: new google.maps.Size(45, 45)
         },
         cluster: {
-            url: 'testicon2.png',
+            url: './testicon2.png',
             scaledSize: new google.maps.Size(50,50)
         }
     };
@@ -385,7 +385,7 @@ async function initMap() {
     var markers = locat.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
-            icon : "testicon2.png"
+            icon : "testicon2.png"            
         })
     })
         

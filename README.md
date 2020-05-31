@@ -28,14 +28,14 @@ That said, we could prevent people from gathering up at the same market, decreas
 
 We decided to show only crowding instead of each person - as some GPS-based applications do, to avoid malicious usage of our software. Of course, the code is rough but the idea is there.
 
-Expansion
+### Expansion
 Thinking about pandemics, if every single person watched every place before going there would decrease pandemic spread rates significantly.
 
 We thought about this application as being able to be both social and economic viable - such as gathering data tables and being able to parse information about specific places - lessening the time spent wherever, as time is money.
 
 This application is meant to be social and help avoid COVID-19 or other pandemic outbreaks that can happen, but could be further developed.
 
-Our Team #brainstorm
+### Our Team #brainstorm
 Dennys Marcos, 21
 B.S. Computer Science freshman
 
@@ -54,7 +54,7 @@ High-school student
 Samara Audibert, 26
 Marketing, Communication and Enterpreuner
 
-Technical Information
+### Technical Information
 As I specified briefly above, developing this completely "working-version" in two days would be nearly impossible due to my (Dennys) inexperience on Mobile - that's why we decided to focus the architectural building and abstract funcionality of the project.
 
 Github Repository:
