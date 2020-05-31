@@ -152,3 +152,8 @@ a {
     color: rgb(138, 138, 138);
     text-decoration: none;
 }
+
+a:hover {
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+}
