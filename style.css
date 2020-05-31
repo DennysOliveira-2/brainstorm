@@ -85,8 +85,9 @@ html, body {
     width: 70%;
     height: 100%;
 
-    outline: 5px solid yellow;
+    outline: 1px solid black;
     outline-offset: -6px;
+    text-align: center;
 }
 
 
