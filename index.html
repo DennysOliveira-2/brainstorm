@@ -6,15 +6,36 @@
         <script src="script.js"></script>
     </head>
     <header>
-        <h3>Population Density Live Heatmap</h3>
-        <h4>Avoiding crowded places and decreasing pandemic spread rates.</h2>
-        </header>
+        
+    </header>
     <body>
-        <p id="coord">Null</p>
-        <div id="map-container">
-            <div id="map"></div>
+        <div id="body">
+            <div class="row">
+                <div class="column1">
+                    <div class="column-header">
+                        <h3>Population Density Live Heatmap</h3>
+                        <h4>Avoiding crowded places and decreasing pandemic spread rates.</h2>
+                    </div>
+                    <div class="card">
+                        <p>We, as human beings, <strong>need</strong> to socialize. At least, the major part of the humanity isn't used and don't get comfortable when we need to do everything remotely.</p>
+                        <P>A good example of that is how good are the students handling the remote-class situation - most of them aren't comfortable with it.</P>
+                        <p>That said, pandemics and outbreaks that demand we being away from each other do not cooperate with our psychological health. Getting out of our routine can be rough.</p>
+                        <p>Thinking about that, instead of finding ways to lock people or tell them not to leave their houses, why not find a way for them to leave, but safely? </p>
+                        <p>This is where our idea is born (...)</p>
+                        <p>(...)</p>
+                    </div>
+                </div>  
+                <div class="column2">
+                    <div id="map-container">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+       
         <script type="text/javascript" src="script.js"></script>
+        <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiTz4Z0psSagtJ_4niIOKvQDM706L_bIM&libraries=visualization&callback=initMap">
         </script>
